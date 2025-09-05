@@ -1,0 +1,70 @@
+body{
+	motion: ;
+}
+.mainDiv{
+	border: 5px solid violet;
+	background: whitesmoke;
+	width: 30%;
+	margin: 200px auto;
+	min-height: 100px;
+}
+.header{
+	height: 50px;
+	width: 98%;
+	border: 5px solid violet;
+	min-height: 20px;
+	margin: 0 auto;
+	font-size: 30px;
+}
+.nav{
+	height: 50px;
+	width: 98%;
+	border: 5px solid violet;
+	text-align: center;
+	font-size: 30px;
+}
+.div1{
+	height: 200px;
+	width: 98%;
+	border: 5px solid violet;
+}
+.div2{
+	width: 60.5%;
+	height: 200px;
+	border: 5px solid violet;
+	float: left;
+}
+.section{
+	width: 100%;
+	height: 92px;
+	border: 5px solid violet;
+	text-align: center;
+	font-size: 30px;
+	
+
+}
+.article{	
+
+    width: 100%;
+	height: 92px;
+	border: 5px solid violet;
+	text-align: center;
+	font-size: 30px;
+
+	
+}
+.aside{
+	width: 35%;
+	height: 200px;
+	border: 5px solid violet;
+	text-align: center;
+	font-size: 30px;
+	float: right;
+}
+.footer{
+	width: 98%;
+	height: 50px;
+	border: 5px solid violet;
+	text-align: center;
+	font-size: 30px;
+}

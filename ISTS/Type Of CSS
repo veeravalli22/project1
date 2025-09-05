@@ -1,0 +1,28 @@
+Type Of CSS :
+    
+    1.Inline
+    2.Internal
+    3.External
+
+color -           for changing text color
+background -      for changing background color  (ex:<p style="color:red;background:green;")
+font-family -     to change text font type  (ex: Tempu Sans ITC, vivaldi, Tw Cen MT, Wide Latin,......)(ex:style="font-family:Wide Latin")
+font-size -       to increase or decrease font size  (ex: 30px, 15px, 40px,.....) (style="font-size:12px")
+letter-spacing -  ""         "        "    "     (ex: s="l-s:4px,6px")
+word-spacing -    "            "        "      "   (ex: s="w-s:6px,4px")
+text-align -      text is center and right and left sifded is using this(ex:styly="text-align:center & right & left;")
+
+
+background: url() no repeat;
+
+
+                                                                                 background: black;
+background-image: url();
+background-repeat: no-repeat;                                                                            background-image: url();
+
+
+stylr="text-align:right  & left;"
+
+       float:"   "
+
+ image next test coming   =  <div style="clear: both;"></div>      

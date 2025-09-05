@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Internal CSS</title>
+	<style>
+		body{
+           
+           background: url(https://wallpapers.com/images/featured/blue-and-green-background-dw33udrnsivcl89d.jpg);
+           
+
+		}
+		#mainDiv{
+            background: white;
+			height: 500px;
+			margin: 0 auto;
+			width: 40%;
+			margin: 70px 40px 300px 400px;
+			padding: 40px;
+		}
+		.button{
+			 background: rgb(90,155,247);background: linear-gradient(90deg, rgba(90,155,247,1) 0%, rgba(87,189,76,1) 100%);
+			 color: white;
+			 border: 0;
+			 padding: 20px;
+			 margin: 20px;
+		}
+		
+	</style>	
+</head>
+<body >
+	<div id ="mainDiv">
+		<h1>GET IN TOUCH</h1>
+		<form>
+			<div style="width: calc(50% - 20px);padding: 10px;float: left;">
+				<label>Tell as your Name</label><br></br>
+				<textarea type="text" placeholder="Enter your name" style="width: 95%;border: 0;background: lightgrey;padding: 10px;"></textarea>
+		    </div>
+		    <div style="width: calc(50% - 20px);padding: 10px;float: left;">
+		    	<label>Enter your email</label><br></br>
+		    	<textarea type="text" placeholder="Enter your email" style="width: 95%;border: 0;background: lightgrey;padding: 10px;"></textarea>
+		    </div>
+		    <div style="width: calc(100% - 20px);padding: 10px;">
+		    	<label>Your Website</label><br></br>
+		    	<textarea type="text" placeholder="http://" style="width: 95%;border: 0;background: lightgrey;padding: 10px;"></textarea>
+		    </div>
+		    <div style="width: calc(100% - 20px);padding: 10px;">
+		    	<label>Message</label>
+		    	<textarea type="text" placeholder="Your message here..." style="width: 95%;border: 0;background: lightgrey;padding: 10px;"rows="5"></textarea>
+		    </div>
+		    <button style="background: rgb(90,155,247);background: linear-gradient(90deg, rgba(90,155,247,1) 0%, rgba(87,189,76,1) 100%);color: white;border: 0;padding: 20px;margin: 15px 0 40px 250px;">SUBMIT</button>
+             <button class="button" onclick="testalert()" ondblclick="text1()">Text</button>
+             <h1 id="Output"></h1> 
+             <script>
+             	
+             	function text1(){
+             		
+             		var result = (text)
+             		document.getElementById('Output').innerHTML = result
+             	}
+             </script>
+		</form>
+	</div>
+	
+	
+</body>
+</html>

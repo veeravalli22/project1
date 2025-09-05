@@ -1,0 +1,167 @@
+body{
+	background: #5A8F29;
+}
+.div1{
+	*/border: 1px solid white;
+	width: 70%; 
+	min-height: 50px;
+	margin: 5px 0 auto;
+	border-bottom: 2px solid green;
+	margin: 0 auto;
+	background-color: green;
+	
+}
+.icon{
+	background: url(https://ecobiz.org/wp-content/uploads/ecobiz-logo-300x300.png);
+	height: 20px;
+
+
+}
+.position{
+	margin: 30px 30px;
+}
+.divs{
+	*/border: 1px solid white;
+	min-height: 40px;
+	float: right;
+	width: 70%;
+}
+.div2{
+	*/border: 1px solid white;
+	width: 70%;
+	margin: 0 atuo;
+	min-height: 200px;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+	margin: 0 auto;
+	background: url(background: rgb(228,247,233);
+    background: radial-gradient(circle, rgba(228,247,233,1) 4%, rgba(37,223,8,0.8016456582633054) 100%););
+	background-size: cover;
+}
+.logo{
+	margin-left: 400px;
+}
+.div3{
+	*/border: 1px solid white;	
+	width: 70%; 
+	min-height: 70px;
+	margin: 0 auto;
+	min-height: 80px;
+	border-top: 2px solid greenyellow;
+	margin: 0 auto;
+	background-color: green;
+
+}
+.box1{
+	*/border: 1px solid white;
+	width: calc(25% - 6px);
+	margin: 10px 0 3px;
+	min-height: 50px;
+	float: left;
+}
+.box2{
+	*/border: 1px solid white;
+	width: calc(25% - 6px);
+	margin: 10px 0 3px;
+	min-height: 50px;
+	float: left;
+}
+.box3{
+	*/border: 1px solid white;
+	width: calc(25% - 6px);
+	margin: 10px 0 3px;
+	min-height: 50px;
+	float: left;
+}
+.box4{
+	*/border: 1px solid white;
+	width: calc(25% - 4px);
+	margin: 10px 0 3px;
+	min-height: 50px;
+	float: right;
+
+}
+
+.div4{
+	*/border: 1px solid white;
+	width: 70%;
+	margin: 0 atuo;
+	min-height: 250px;
+	margin: 0 auto;
+	background-color: white;
+	
+}
+.divs2{
+	width: 65%;	
+	margin: 10px 10px;
+
+	min-height: 230px;
+	border: 1px solid #ddd;
+	float: left;
+}
+.s2-1{
+	width: 90%;
+	min-height: 70px;
+	*/border: 1px solid green;
+}
+.s2-2{
+	width: 47%;
+	min-height: 150px;
+	*/border: 1px solid green;
+	float: left;
+	
+
+}
+.s2-3{
+	width: 47%;
+	min-height: 150px;
+	*/border: 1px solid green;
+	float: right;
+
+}
+.divs3{
+	width: 30%;
+	margin: 10px 10px;
+	min-height: 230px;
+	*/border: 1px solid #ddd;
+	float: right;
+}
+.div5{
+	*/border: 1px solid white;
+	width: 70%;
+	margin: 0 auto;
+	min-height: 120px;
+
+}
+.imgs{
+	float: left;
+}
+.text{
+	color: #7bbf50;
+}
+.hr{
+	width: 80%;
+}
+.text1{
+	color: white;
+}
+.div5-1{
+	width: 60%;
+	min-height: 100px;
+	*/border: 1px solid white;
+	float: left;
+}
+.div5-2{
+	width: 30%;
+	min-height: 100px;
+	*/border: 1px solid white;
+	float: right;
+
+}
+.hr1{
+	width: 100%;
+}
+.h{
+	font-size: 70px;
+	
+}

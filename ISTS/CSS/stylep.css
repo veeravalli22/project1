@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	background: url(https://wallpaperaccess.com/full/2149199.jpg);
+	background-size: cover;
+	color: white;
+}
+.mainDiv{
+	background: #0008;
+	height: 300px;
+	width: 70%;
+	margin: 200px auto;
+	border: 1px solid white;
+	position: relative;
+
+}
+.heading{
+	background: #01204E;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 30px;
+	position: absolute;
+	/* top: -45px; */
+	top:
+	/* left: 350px; */
+	left: 100px
+}

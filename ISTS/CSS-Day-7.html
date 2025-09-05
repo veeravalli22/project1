@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Internal CSS</title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		#mainDiv{
+			width: 90%;
+			background: whitesmoke;
+			padding: 30px;
+			height: 600px;
+			margin: 0 auto;
+			
+		}
+		#leftDiv{
+			width: 46%;
+			margin: 10px;
+			background: #ddd;
+			float: left;
+			padding: 15px;
+		}
+		#rightDiv{
+			width: 46%;
+			margin: 10px;
+			background: #ddd;
+			float: right;
+			padding: 15px;
+		}
+		.form_input{
+			padding: 10px 20px;
+			width: 60%;
+		}		
+		.clear{
+			clear: both;
+		}
+		#margin{
+			margin-bottom: 17px;
+		}
+	</style>
+</head>
+<body>
+	<div id="mainDiv">
+	   <div id="leftDiv">
+	   	<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full Name</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-user"></i>
+	   		<input type="text" placeholder="Full Name"class="form_input"><br></br>
+	   		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address Line 1</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>
+	   		<input type="text" placeholder="Address Line 1"class="form_input"><br></br>
+	   		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address Line 2</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>
+	   		<input type="text" placeholder="Address Line 2"class="form_input"><br></br>
+	   		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>
+	   		<input type="text" placeholder="City"class="form_input"><br></br>
+	   		<b>State/Province/Region</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>
+	   		<input type="text" placeholder="State/Province/Region"class="form_input"><br></br>
+	   		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Postal Code/ZIP</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>
+	   		<input type="text" placeholder="Postal Code/ZIP"class="form_input"><br></br>
+	   		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Country</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-list"></i>
+	   		<input type="text" placeholder="A really long option to push the menu over the edget"class="form_input"><br></br>
+	   		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-envelope"></i>
+	   		<input type="text" placeholder="Email"class="form_input"><br></br>
+	   		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone Number</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-phone"></i>
+	   		<input type="text" placeholder="Phone Number"class="form_input"id="margin">
+            
+	   </div>
+	   <div id="rightDiv">
+	    	<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full Name<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-user"></i>
+	   	
+	   		<input type="text" placeholder="Full Name"class="form_input"><br></br>
+	   		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address Line 1</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>
+	   		<input type="text" placeholder="Address Line 1"class="form_input"><br></br>
+	   		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address Line 2</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>
+	   		<input type="text" placeholder="Address Line 2"class="form_input"><br></br>
+	   		 <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>
+	   		<input type="text" placeholder="City"class="form_input"><br></br>
+            <b>State/Province/Region</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>
+            <input type="text" placeholder="State/Province/Region"class="form_input"><br></br>
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Postal Code/ZIP</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>
+            <input type="text" placeholder="Postal Code/ZIP"class="form_input"><br></br>
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Country</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-list"></i>
+            <input type="text" placeholder="A really long option to push the menu over the edget"class="form_input"><br></br>
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-envelope"></i>
+            <input type="text" placeholder="Email"class="form_input"><br></br>
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone Number</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-phone"></i>
+            <input type="text" placeholder="Phone Number"class="form_input"><br></br>
+
+	   </div>
+    </div>
+    <div></div>
+</body>	
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Registration Form</title>
+    <style>
+	    .title{
+           text-align: center;
+       }
+       .input{
+       	  margin: 10px 0px 20px 70px;
+       	  height: 30px;
+       	  width: 250px;
+       }
+       .center{
+       	 text-align: center;
+       }
+       .font{
+       	font-size: 20px;
+       }
+       .inpu{
+       	   margin: 20px 10px 20px 70px;
+       	  height: 30px;
+       	  width: 250px;
+
+       }
+       .inpt{
+       	margin: 20px 10px 20px 120px;
+       	height: 30px;
+       	  width: 250px;
+
+       }
+       .studen{
+       	margin-right: 20px;
+       }
+       .language{
+       	margin: 20px;
+       	text-align: center;
+       	margin-bottom: 20px;
+       }
+       .button{
+       	   width: 10%;
+       	   height: 30px;
+       }
+    </style>
+</head>
+<body>
+	<h1 class="title">Student Registration Form</h1>
+	
+	    <div class="center">
+	    	<div class="font">
+                <label>Student Name</label> 
+                <input type="text" class="input"></br>
+                <label>Father Name</label> 
+                <input type="text" class="input"></br>
+                <label>Student Email</label> 
+                <input type="text" class="inpu"></br>
+                <label>Course</label>
+               <select class="inpt">
+                   <option value="">Select</option><optgroup label="B.TECH">
+                    <option value="CSE">Java</option>
+                    <option value="AIML">Python</option>
+                    <option value="DS">Oracle</option>
+                    <option value="IT">Web Desiging</option>
+                    </optgroup>
+                    <optgroup label="Non B.TECH">
+                    <option value="ME">Cec</option>
+                    <option value="CE">Mpc</option>
+                    <option value="EEE">Bipc</option>
+                    </optgroup>
+                </select></br>
+                <label class="studen">password</label>
+
+                <input type="password" class="input"></br>
+                
+                    <label>Gender</label>
+                        <input type="radio"name="gender"value="male">male
+                        <input type="radio"name="gender"value="Female">Female
+                        <input type="radio"name="gender"value="others">others</br>
+                        
+                <div class="language">
+                    <label>Language Known</label></br>
+                    <div class="language">
+                        <input type="radio"name="gender"value="English">English
+                        <input type="radio"name="gender"value="Telugu">Telugu
+                        <input type="radio"name="gender"value="Hindi">Hindi</br>
+                    </div>
+                </div>
+                <label>Phone Number</label>
+                <input type="number"/ class="inpu"></br>
+                <label >Adress</label>
+                <input type="text"/ class="inpt"></br>
+                <button class="button">Submit</button>
+            </div>
+        </div>
+        
+</body>
+</html>

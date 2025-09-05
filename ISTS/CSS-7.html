@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Model FORM</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+	<style>
+		.nosifer-regular {
+            font-family: "Nosifer", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+		body{
+			background: url(https://cdn.pixabay.com/video/2021/01/20/62447-504238945_tiny.jpg) no-repeat;
+            background-size: cover;
+            font-family: "Nosifer", sans-serif;
+
+		}
+		#mainDiv{
+			color:red;
+			margin-top: 50px;
+            font-size: 50px;	
+		}
+		.form-group{
+
+		}
+		.leftDiv{
+			color: red;
+			width: 50%;
+			float: left;
+			margin-top: 50px;
+		}
+		.rightDiv{
+			color: red;
+			width: 50%;
+			float: right;
+			margin-top: 50px;
+		}
+		.form-input{
+			
+			background-color: #000;
+			padding: 10px;
+			border: 0;
+			border-bottom: 1px solid #ddd;
+			opacity: 0.5;
+			width: 80%;
+
+		}
+		.leftSub{
+			color: red;
+			margin-top: 50px;
+			width: 100%;
+		 }
+		.inputSub{
+			background-color: #000;
+			padding: 10px;
+			border: 0;
+			border-bottom: 1px solid #ddd;
+			opacity: 0.5;
+			width: 90%;
+		}
+		#sendM{
+			background-color: #000;
+			padding: 10px;
+			color: red;
+			border: 0;
+			margin: 0 10PX;
+		}
+		.img1{
+			height: 100px;
+
+			position: fixed;
+			right: 150px;
+			
+			top: 60px;
+		}
+		.img2{
+			height: 100px;
+			position: fixed;
+			right: 530px;
+			top: 90px;
+		}
+		.img3{
+			height: 150px;
+			position: fixed;
+		    top: 270px;
+			right: 240px;
+
+		}
+		.bird{
+			height: 100px;
+			position: fixed;
+			right: 40px;
+			top: 500px;
+		}
+		
+
+	</style>
+</head>
+<body>
+
+	<img src="https://static.vecteezy.com/system/resources/previews/014/559/974/original/an-evil-witch-silhouette-riding-a-broom-and-making-poison-on-halloween-png.png"  class="img1">
+      <img src="https://png.pngtree.com/png-vector/20220818/ourmid/pngtree-halloween-spooky-tree-silhouette-png-image_6114074.png" class="img2">
+
+      <img src="https://png.pngtree.com/png-vector/20220609/ourmid/pngtree-black-scary-bird-icon-png-image_4937297.png" class="img3">
+
+      <img src="https://wallpapers.com/images/hd/silhouetteof-flying-black-bird-6sjvjnmvuhka1s00-6sjvjnmvuhka1s00.png" class="bird">
+
+      
+
+	<div id="mainDiv">GET IN TOUCH</div>
+	<div form-group>
+		<div class="leftDiv">
+			FULL NAME<br></br>
+			<input type="text" placeholder="NAME" class="form-input"><br></br><br></br>
+
+		</div>
+		<div class="rightDiv">
+			MAIL ADDRESS<br></br>
+			<input type="text" placeholder="EMAL" class="form-input"><br></br><br></br>
+		</div>
+	</div>
+	<div class="leftSub" =leftSub>
+	    SUBJECT<br></br>
+	   <input type="text" placeholder="NAME" class="inputSub">
+    </div>
+    <div class="leftSub">
+    	MESSAGE<br></br>
+    	<input type="text" placeholder="MESSAGE" class="inputSub"><br></br>
+    </div>
+    <button id="sendM">SEND MESSAGE</button>
+	
+</body>
+</html>
